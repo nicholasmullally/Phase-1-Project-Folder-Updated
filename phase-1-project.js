@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 let catsImgDiv = document.querySelector("#catImage")
                 catsImgDiv.setAttribute("src", catsImgUrl)
             }).catch(err => console.log(err))
-
     }
 
     function addFeeback(e) {
@@ -31,6 +30,4 @@ document.addEventListener("DOMContentLoaded", (e) => {
         feedbackContainer.appendChild(newParagraph)
         feedbackForm.reset();
     }
-
-
 });
